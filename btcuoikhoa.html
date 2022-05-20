@@ -14,30 +14,42 @@
 
 <body>
     <header class="header-card ">
-        <div class="line-bar">
+        <nav class="line-bar">
             <div class="left-bar">
-                <span class="mail-phoneNumber">
-
-
-                </span>
-                <div class="user-login"></div> 
+                <span>0929325704</span>
+                <ul class="social-bar">
+                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                </ul>
             </div>
-        </div>
+            <div class="user-login">
+                <ul>
+                    <li> <a href="#" class="lo login-button">login</a></li>
+                    <li> <span>|</span></li>
+                    <li><a href="#" class="lo register-button">register</a></li>
+                </ul>
+            </div> 
+        </nav>
+
        <div class="header-container-nav">
            <div class="header-logo">
             <a ><img src="https://khoatranvn00.github.io/travelix/assets/images/logo.webp">travelix</a>
            </div>
            <div class="header-nav">
-               <a href="#" class="item">HOME</a>
-               <a href="#" class="item">ABOUT</a>
-               <a href="#" class="item">OFFERS</a>
-               <a href="#" class="item">NEWS</a>
-               <a href="#" class="item">CONTACT</a>
+               <ul>
+                   <li><a href="#" class="item">HOME</a></li>
+                   <li><a href="#" class="item">ABOUT</a></li>
+                   <li><a href="#" class="item">OFFERS</a></li>
+                   <li><a href="#" class="item">NEWS</a></li>
+                   <li><a href="#" class="item">CONTACT</a></li>
+               </ul>
            </div>
            <section class="searching">
                <div class="search-place">
-                <input type="text" class="fname" name="fname">
-                <label class="form-label" for="fname">search</label>
+                <input type="text" class="fname" name="fname" placeholder=" ">
+                <label class="form-label" for="fname"><i class="fas fa-search" id="search"></i></label>
+                
                </div>
            </section>
        </div>
@@ -45,13 +57,16 @@
            <h1 id="timequote">TIME </h1>
            <H1 id="timequote">TO TRAVEL </H1>
        </section>
+       <div class="scroll-top" style="display: none;">
+        <i class="fas fa-arrow-up"></i>
+      </div>
       
 
     </header>
     <main>
         
         <i class="fas fa-search" id="search"></i>
-    </main>
+        
     
 </body>
 </html>
