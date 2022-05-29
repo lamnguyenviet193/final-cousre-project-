@@ -53,7 +53,7 @@ body{margin:0;
     display:inline-flex;
     justify-content: space-between;
     padding:0 2%;
-    height:135px;
+    height:120px;
     position:fixed;
     width:100vw;
     align-items: center;
@@ -316,7 +316,6 @@ background-color:rgba(141, 134, 122, 0.8) ;
     margin-top:50px;
     margin-left:30px;
     margin-right:30px;
-    padding:0;
     
 
 }
@@ -357,7 +356,7 @@ background-color:rgba(141, 134, 122, 0.8) ;
 }
 .card-bottom .card-moreinformation .readbutton{
     display:flex; 
-    margin:40px auto;
+    margin:10px auto;
     padding:10px 20px;
     border-radius: 10px;
     box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
@@ -377,3 +376,51 @@ background-color:rgba(141, 134, 122, 0.8) ;
 
 
 
+/* items-list second*/
+
+.recommend-heading h1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:48px;
+    font-size:40px;
+}
+
+.recommend-hotel{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:30px;
+    border-radius: 10px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+   position:relative;
+
+    
+    
+}
+.item-child{
+    margin:30px;
+    border-radius: 10px;
+
+}
+
+.image-item-list{
+    object-fit: cover;
+    width:100%;
+    border-radius: 10px 10px 0 0;
+
+}
+.recommend-hotel .item-child a {
+    text-decoration: none;
+    font-size:16px;
+    color:#171716;
+}
+ 
+.recommend-hotel .item-child  h3 {
+    color:red;
+}
+
+.item-child:hover {
+    transform:scale(1.1);
+}
